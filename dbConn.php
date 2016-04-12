@@ -4,7 +4,7 @@ function dbConnect(){
 $servername = getenv('IP');
 $dbPort = 3306;
 
-// Which database (the name of the database in phpMyAdmin)?
+// Which database (the name of the database in phpMyAdmin)
 $database = "Music";
 
 // My user information...I could have prompted for password, as well, or stored in the
