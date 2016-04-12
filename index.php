@@ -17,6 +17,25 @@ $connection = dbConnect();
         <link rel="stylesheet" type="css" href="css/main.css">
     </head>
     <body>
+        <div>
+            <h1> Music Store</h1>
+            <form method = "get">
+                
+                Sort By: 
+                <select name = "table">
+                    <option selected disabled hidden value = "" ></option>
+                    <option value = "1">Album</option>
+                    <option value = "2">Artist</option>
+                    <option value = "3">Songs</option>
+                </select>
+                
+            <input type="submit" value="Submit">    
+            </form>
+            
+            
+        </div>
+        
+        
 
     </body>
 </html>
